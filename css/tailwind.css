@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+   .img-cover::before {
+      @apply absolute bg-soft-violet inset-0 bg-opacity-60;
+      content: ' '
+   }
+}
